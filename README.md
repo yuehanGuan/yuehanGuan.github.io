@@ -3,6 +3,10 @@
 一个纯原生 HTML / CSS / JavaScript 实现的响应式个人主页，**不依赖任何第三方框架或构建工具**，
 克隆下来用浏览器直接打开 `index.html` 即可运行。
 
+**在线地址**：<https://yuehanguan.github.io/>
+
+> 姓名以拼音 `GUAN Yuehan` 展示。
+
 ## 目录结构
 
 ```
@@ -38,12 +42,17 @@ python3 -m http.server 8000
 
 ## 部署
 
-静态站点，任意静态托管平台都可直接部署：
+静态站点，任意静态托管平台都可直接部署。
 
-- **GitHub Pages**：仓库 Settings → Pages → 选择 `main` 分支根目录
-- **Vercel / Netlify**：导入仓库，构建命令留空，输出目录填 `.`
+本站当前通过 **GitHub Pages** 托管：
+
+- 仓库：<https://github.com/yuehanGuan/yuehanGuan.github.io>
+- 分支 `main`，发布目录 `/`（仓库根目录），HTTPS 强制开启
+- 每次推送到 `main` 会自动触发 Pages 重新构建
+
+本地开发时直接修改文件并推送即可，无需任何构建命令。
 
 ## 待完善
 
-- [ ] 替换占位的邮箱与 GitHub 链接（`index.html` 中搜索 `your-mail@example.com`）
+- [ ] 替换占位的邮箱地址（`index.html` 中搜索 `your-mail@example.com`）
 - [ ] 添加项目截图或演示动图
